@@ -118,5 +118,11 @@ You should now be able to import your package and it's modules for use in the ev
 
 I know it sucks to think about these sort of things, but they are important. Make sure you pick the correct license when you start up a repo on github. MIT liceses are usualy the way to go, as it ensures you are not liable for any issues that people using your code may encounter. In this example, I've included an MIT license. Read more about it [here](https://opensource.org/licenses/MIT).
 
+## .gitignore
+
+This is a handy little file that includes everything that you don't want git to pick up on and push up to your remote origin. Things that come to mind for Mac users are those frustrating `.DS_Store` files. Also, **IP Addresses** inside config files and other things like this. BTW, if you are dealing with things like this often, you might want to make your repo private, and the make it public after you are 100% sure there is nothing that shouldn't be there. 
+
+
+
 
 
