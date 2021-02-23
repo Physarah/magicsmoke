@@ -22,6 +22,12 @@ Then:
 brew install byobu 
 ```
 
+If you are running 10.14.3 or lower (because, reasons) you may also need to install:
+
+```
+brew install coreutils
+```
+
 #### Installing on Linux:
 
 ```
@@ -35,6 +41,13 @@ Coming soon! Sorry Windows friends :(
 ```
 
 Byobu is a **STEEP** learning curve, but it is worth it! A really good byobu cheat sheet can be found [here](https://medium.com/russian-it-stories/byobu-cheatsheet-%D0%BCost-used-hotkeys-5a8bbd8476fd)
+
+### Environments 
+
+I think of environments like rooms in your house. You wouldn't cook in the bathroom? Or sleed in the garage? A particular room in the house has all the tools you need for certain tasks. So make sure you are developing code in the right room!
+
+In short, the envirnment holds all your packages, python versions etc for a particular project. Examples for me, are `Huntsman`, `SkyHopper`, `PRAXIS` and `SkySurf`, four of the projects I am working on, that have their own, unique coding envirnments. 
+
 
 
 
