@@ -50,7 +50,34 @@ In short, the envirnment holds all your packages, python versions etc for a part
 
 #### Getting started:
 
-For python developers, I prefer to use conda - and there are lots of way install it. If you are just starting out, or if you like GUI's (there is absolutly no proplem with this, I like visual tools as well) it is a good idea to install [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/#:~:text=Anaconda%20Navigator%20is%20a%20desktop,in%20a%20local%20Anaconda%20Repository.)
-Installation of Anaconda, both the graphical interface, and conda the command line interface, on all operating systems can be found [here](https://docs.anaconda.com/anaconda/install/).
+As a python developer, I prefer to use conda - and there are lots of way install it. If you are just starting out, or if you like GUI's (there is absolutly no proplem with this, I like visual tools as well) it is a good idea to install [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/#:~:text=Anaconda%20Navigator%20is%20a%20desktop,in%20a%20local%20Anaconda%20Repository.).
 
+Installation of Anaconda, both the graphical interface and conda the command line interface on all operating systems can be found [here](https://docs.anaconda.com/anaconda/install/).
 
+If you'd like a quick start command line option, on a Mac you can do:
+
+```
+pip install conda
+```
+
+The major commands for environment management are:
+
+```
+conda create --name myenv
+```
+Where `myenv` is replaced with the name of your environment. Tips on how to make environments with certain packages installed, and specific python environments, check out [these docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+```
+source activate myenv
+```
+This will activate your environment in a bash terminal
+
+```
+conda deactivate
+```
+This will deactivate any environemtn currently in use, and take you back to `base`.
+
+```
+conda info --envs
+```
+This will list all the environments on your machine. 
