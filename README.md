@@ -93,7 +93,7 @@ what it should be when it is initialised.
 
 Why a blue print? Well classes are not like attributes - they can be initilaised in lots of different ways. For example, the class `Animals` could be initialsed in these two ways:
 
-```
+```python
 from universe.organisms import Animals 
 
 dog = Animals(type = 'dog')
@@ -102,7 +102,7 @@ dog.sleep(seconds = 60)
 ```
 Or, what if I wanted a cat?
 
-```
+```python
 from universe.organisms import Animals 
 
 cat = Animals(type = 'cat')
@@ -123,7 +123,13 @@ class Animals():
             self.i_am = 'a_dog'
 ```
 
+So what is `self`? `self` represents the instance of the class, and it is a way of linking everything inside the class. If something is inside the class, and it has `self.` out the front of it, it can be used inside any method throughout the class, and can be accessed in python once the class has been initialised by (looking at our dog instance) `dog.i_am`. This would return `a_dog`. 
+
+In prep 
+
 ## Packages 
+
+In prep
 
 ## Installing Packages 
 
