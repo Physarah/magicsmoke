@@ -116,7 +116,7 @@ How do we initialise a class? we use an `__init__`:
 
 ```python
 class Animals():
-    def __init__(type):
+    def __init__(self, type):
         if type == 'cat':
             self.i_am = 'a_cat'
         if type == 'dog':
