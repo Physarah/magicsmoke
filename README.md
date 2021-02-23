@@ -8,7 +8,7 @@ I'd like to reiterate however, there is no right or wrong way to do any of this.
 
 ## Byobu
 
-Byobu is useful for those who often have lots of terminals open to do lots of processes, those who need to work on machines remotely, working on hardware in headless mode (no monitor) or if you want to close the window, but keep the process running (in particular flaking VPN's, bad connections etc, but you want the process to keep running even if you detatch from the bash terminal). 
+Byobu is useful for those who often have lots of terminals open to do lots of processes. Those who need to work on machines remotely, working on hardware in headless mode (no monitor) or if you want to close the window, but keep the process running (in particular flaky VPN's, bad connections etc, but you want the process to keep running even if you detatch from the bash terminal). 
 
 #### Installing on OSX:
 
@@ -44,7 +44,7 @@ Byobu is a **STEEP** learning curve, but it is worth it! A really good byobu che
 
 ## Environments 
 
-I think of environments like rooms in your house. You wouldn't cook in the bathroom? Or sleed in the garage? A particular room in the house has all the tools you need for certain tasks. So make sure you are developing code in the right room!
+I think of environments like rooms in your house. You wouldn't cook in the bathroom? Or sleep in the garage? A particular room in the house has all the tools you need for certain tasks. So make sure you are developing code in the right room!
 
 In short, the envirnment holds all your packages, python versions etc for a particular project. Examples for me, are `Huntsman`, `SkyHopper`, `PRAXIS` and `SkySurf`, four of the projects I am working on, that have their own, unique coding envirnments. 
 
@@ -88,6 +88,30 @@ These are great if you leave your code for a few months, come back and forget ho
 
 ## Classes 
 
+The official docs on classes can be found [here](https://docs.python.org/3/tutorial/classes.html) but I don't know why, but it took me a while to understand an abstract concept like this. I think of a class, as a box with a blueprint for 
+what it should be when it is initialised. 
+
+Why a blue print? Well classes are not like attributes - they can be initilaised in lots of different ways. For example, the class `Animals` could be initialsed in these two ways:
+
+```
+from universe.organisms import Animals 
+
+dog = Animals(type = 'dog')
+dog.sleep(seconds = 60)
+
+```
+Or, what if I wanted a cat?
+
+```
+from universe.organisms import Animals 
+
+cat = Animals(type = 'cat')
+cat.sleep(seconds = 100)
+
+```
+
+These are two very different animals, but they can both got to sleep. There are lots of features that make them similar, and that is the 'blue print' in the Animal's class. 
+
 ## Packages 
 
 ## Installing Packages 
@@ -116,7 +140,7 @@ You should now be able to import your package and it's modules for use in the ev
 
 ## Licenses
 
-I know it sucks to think about these sort of things, but they are important. Make sure you pick the correct license when you start up a repo on github. MIT liceses are usualy the way to go, as it ensures you are not liable for any issues that people using your code may encounter. In this example, I've included an MIT license. Read more about it [here](https://opensource.org/licenses/MIT).
+I know it sucks to think about these sort of things, but they are important. Make sure you pick the correct license when you start up a repo on github. MIT licenses are usualy the way to go, as it ensures you are not liable for any issues that people using your code may encounter. In this example, I've included an MIT license. Read more about it [here](https://opensource.org/licenses/MIT).
 
 ## .gitignore
 
