@@ -114,7 +114,7 @@ These are two very different animals, but they can both got to sleep. There are 
 
 How do we initialise a class? we use an `__init__`: 
 
-```
+```python
 class Animals():
     def __init__(type):
         if type == 'cat':
