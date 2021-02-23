@@ -15,11 +15,26 @@ Byobu is useful for those who often have lots of terminals open to do lots of pr
 If you need to install homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 ```
 
 Then:
 ```
 brew install byobu 
 ```
+
+#### Installing on Linux:
+
+```
+sudo apt-get install byobu
+```
+
+#### Installing on Windows:
+
+```
+Coming soon! Sorry Windows friends :(
+```
+
+Byobu is a **STEEP** learning curve, but it is worth it! A really good byobu cheat sheet can be found [here](https://medium.com/russian-it-stories/byobu-cheatsheet-%D0%BCost-used-hotkeys-5a8bbd8476fd)
+
+
 
