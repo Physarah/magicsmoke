@@ -112,6 +112,17 @@ cat.sleep(seconds = 100)
 
 These are two very different animals, but they can both got to sleep. There are lots of features that make them similar, and that is the 'blue print' in the Animal's class. 
 
+How do we initialise a class? we use an `__init__`: 
+
+```
+class Animals():
+    def __init__(type):
+        if type == 'cat':
+            self.i_am = 'a_cat'
+        if type == 'dog':
+            self.i_am = 'a_dog'
+```
+
 ## Packages 
 
 ## Installing Packages 
