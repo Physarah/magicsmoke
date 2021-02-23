@@ -10,7 +10,7 @@ I'd like to reiterate however, there is no right or wrong way to do any of this.
 
 Byobu is useful for those who often have lots of terminals open to do lots of processes, those who need to work on machines remotely, working on hardware in headless mode (no monitor) or if you want to close the window, but keep the process running (in particular flaking VPN's, bad connections etc, but you want the process to keep running even if you detatch from the bash terminal). 
 
-##### Installing on OSX:
+#### Installing on OSX:
 
 If you need to install homebrew:
 ```
