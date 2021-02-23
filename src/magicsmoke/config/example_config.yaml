@@ -1,0 +1,7 @@
+example_config: "Put any of your yaml configuration files in here!"
+
+examples:
+  - software_runtime_params: 3
+  - anything_else: 'Birds'
+
+# Anything in here can be imported into a dictionary and used in your code

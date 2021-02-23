@@ -1,0 +1,5 @@
+This is an example text file, you can put anything in src/magicsmoke/assets, like csv files, yaml files, jpgs,
+basically anything your code might need to function that you don't want to store IN the code itself,
+but still needs to be accessed by the user.
+
+A good example is throughput tables for telescope bandpasses.
