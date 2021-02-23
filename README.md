@@ -6,7 +6,7 @@ This is a skeleton package for you to develop your own classes and packages base
 
 I'd like to reiterate however, there is no right or wrong way to do any of this. Expore, try new things, and enjoy having the freedom of being able to code however you like! Often our adversion to coding tools, operating systems, IDE's etc, stems from the fact we simply don't understand how they work just yet!  
 
-### Byobu
+## Byobu
 
 Byobu is useful for those who often have lots of terminals open to do lots of processes, those who need to work on machines remotely, working on hardware in headless mode (no monitor) or if you want to close the window, but keep the process running (in particular flaking VPN's, bad connections etc, but you want the process to keep running even if you detatch from the bash terminal). 
 
@@ -42,7 +42,7 @@ Coming soon! Sorry Windows friends :(
 
 Byobu is a **STEEP** learning curve, but it is worth it! A really good byobu cheat sheet can be found [here](https://medium.com/russian-it-stories/byobu-cheatsheet-%D0%BCost-used-hotkeys-5a8bbd8476fd)
 
-### Environments 
+## Environments 
 
 I think of environments like rooms in your house. You wouldn't cook in the bathroom? Or sleed in the garage? A particular room in the house has all the tools you need for certain tasks. So make sure you are developing code in the right room!
 
@@ -75,9 +75,48 @@ This will activate your environment in a bash terminal
 ```
 conda deactivate
 ```
-This will deactivate any environemtn currently in use, and take you back to `base`.
+This will deactivate any environments currently in use, and take you back to `base`.
 
 ```
 conda info --envs
 ```
 This will list all the environments on your machine. 
+
+## Docstrings
+
+These are great if you leave your code for a few months, come back and forget how to use a function or class! You can also call `help()` on an object, function/method etc, and it will show you your docstrings. I use the google standard, which you can find [here](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html). 
+
+## Classes 
+
+## Packages 
+
+## Installing Packages 
+
+Once you have created your package, make sure you are in the environment you want to install it in. Then, navigate to the top directory of the package. 
+
+Once here, install the dependacies by running:
+
+```
+pip install -r requirements.txt
+```
+
+Then you want to install you package in a dynamic way (in otherwords, you can edit it as you go, and those changes will be automatically linked to the installed version) 
+
+```
+python setup.py develop
+```
+
+If you want to install it in a static way, you can do:
+
+```
+python setup.py install 
+```
+
+You should now be able to import your package and it's modules for use in the everyday world!
+
+## Licenses
+
+I know it sucks to think about these sort of things, but they are important. Make sure you pick the correct license when you start up a repo on github. MIT liceses are usualy the way to go, as it ensures you are not liable for any issues that people using your code may encounter. In this example, I've included an MIT license. Read more about it [here](https://opensource.org/licenses/MIT).
+
+
+
