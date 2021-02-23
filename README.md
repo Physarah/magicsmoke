@@ -48,6 +48,9 @@ I think of environments like rooms in your house. You wouldn't cook in the bathr
 
 In short, the envirnment holds all your packages, python versions etc for a particular project. Examples for me, are `Huntsman`, `SkyHopper`, `PRAXIS` and `SkySurf`, four of the projects I am working on, that have their own, unique coding envirnments. 
 
+#### Getting started:
 
+For python developers, I prefer to use conda - and there are lots of way install it. If you are just starting out, or if you like GUI's (there is absolutly no proplem with this, I like visual tools as well) it is a good idea to install [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/#:~:text=Anaconda%20Navigator%20is%20a%20desktop,in%20a%20local%20Anaconda%20Repository.)
+Installation of Anaconda, both the graphical interface, and conda the command line interface, on all operating systems can be found [here](https://docs.anaconda.com/anaconda/install/).
 
 
